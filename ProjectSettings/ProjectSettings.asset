@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 26
-  productGUID: 1c80efbe5ec5ae14ab2329762cfd546b
+  productGUID: 919e8bfeedf89284d98ad2b34a397a55
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: worl in roses
+  productName: Word in Rose
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -630,14 +630,14 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: worl in roses
+  metroPackageName: Word in Rose
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: worl in roses
+  metroApplicationDescription: Word in Rose
   wsaImages: {}
   metroTileShortName: 
   metroTileShowName: 0
@@ -706,10 +706,10 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 0
   windowsGamepadBackendHint: 0
-  cloudProjectId: ed64fc1e-9021-4387-b7f3-5ebc9b01068b
+  cloudProjectId: 8be0afab-76c0-4f50-b11a-93a38393cfe5
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: worl in roses
+  projectName: Word in Rose
   organizationId: sophiamiranda100
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
