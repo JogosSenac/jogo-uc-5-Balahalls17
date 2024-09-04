@@ -39,9 +39,21 @@ public class PlayerMovement : MonoBehaviour
 
     void Jump()
    {
-    if(Input.GetButtonDown("Jump") && !isJumping)
+    if(Input.GetKey(KeyCode.Space) && !isJumping)
     {
-        rbPlayer.AddForce(new Vector2(0f, JumpForce), ForceMode2D.Impulse);
+        rbPlayer.AddForce(transform.up * JumpForce, ForceMode2D.Impulse);
+        isJumping = true;
+    }
+   }
+
+   private void OnCollisionEnter2D(Collision2D other) {
+    if (other.gameObject.CompareTag("Ground"))
+    {
+        isJumping = false;
+    }
+    if (other.gameObject.CompareTag("Void"))
+    {
+        Destroy(gameObject);
     }
    }
     }
